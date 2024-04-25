@@ -5,5 +5,5 @@ const nextConfig = {
     assetPrefix: process.env.NODE_ENV === 'production' ? '/{nextjs-dashboard}' : '',
   };
   
-  //module.exports = nextConfig;
-  export default nextConfig;
+  module.exports = nextConfig;
+  //export default nextConfig;
