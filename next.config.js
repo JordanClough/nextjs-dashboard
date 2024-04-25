@@ -3,6 +3,7 @@ const nextConfig = {
     output: "export",  // <=== enables static exports
     reactStrictMode: true,
     assetPrefix: process.env.NODE_ENV === 'production' ? '/{nextjs-dashboard}' : '',
+    basePath: "/nextjs-dashboard",
   };
   
   module.exports = nextConfig;
